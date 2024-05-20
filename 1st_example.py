@@ -1,4 +1,4 @@
-# This is an example for a scipt with no libraries or GUI for testing purposes
+# This is an example for a script with no libraries or GUI for testing purposes
 # Try pyinstaller on this example
 
 def main():
