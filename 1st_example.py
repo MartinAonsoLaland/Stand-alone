@@ -1,3 +1,6 @@
+# This is an example for a scipt with no libraries or GUI for testing purposes
+# Try pyinstaller on this example
+
 def main():
     answer = input("Y/N: ")
     a = answer.upper()
