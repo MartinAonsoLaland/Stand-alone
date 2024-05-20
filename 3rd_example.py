@@ -1,3 +1,6 @@
+# This is an example for a script with s library and a GUI for testing purposes
+# Try pyinstaller on this example
+
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
 
