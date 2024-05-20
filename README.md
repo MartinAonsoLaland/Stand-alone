@@ -1,5 +1,6 @@
 # Stand-alone
 Documentation to create .exe files
+All examples can be found in the main folder.
 
 #######################################################################
 ############################  pyinstaller  ############################ 
