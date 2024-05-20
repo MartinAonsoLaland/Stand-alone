@@ -30,7 +30,7 @@ This will create two main folders:
     - A dist folder (distribution) meant to distribute to users
     - A build folder with secondary documents (non important)
 
-###################################################################
+
 ############################ IMPORTANT ############################
 
 When creating a stand-alone python script you need to take into consideration that once the last
@@ -48,7 +48,7 @@ In order to avoid this from happening a main function has to be definde to keep 
     if __name__ == "__main__":
     main()
 
-##############################################################
+
 ############# 1st example: NO library and NO GUI #############
 
 In order to find the limtations on pyinstaller for our systems we will start by creating a standalone app with a very simple script that contains no libraries and no GUI.
@@ -70,7 +70,7 @@ In order to find the limtations on pyinstaller for our systems we will start by 
 
 This example works in the correctly in the terminal and in the .exe version of the script.
 
-###############################################################
+
 ############# 2nd example: YES library and NO GUI #############
 
 We will make a .exe file from the follwing python scipt. 
@@ -100,7 +100,7 @@ The additional step on this version is including a library, in this ca numpy.
 
 This version also works when including th pyinstaller step, the .exe provides the correct functions that the code includes.
 
-################################################
+
 ############# 3rd example: YES GUI #############
 
 The following script creates a window with two buttons (using PYQT) when the red button is clicked the page turns red and the same happend for the green button.
@@ -151,7 +151,7 @@ For more complex scripts additional research is still underway.
 
 
 
-######################################################
+
 ############# Distribution of .exe files #############
 
 Once the file has been created, the main goal is to share the application with the user, however most of the time sending just a .exe file will not work.
@@ -164,13 +164,13 @@ Here are the following steps to share a .exe file for it to work on the users de
 
     - The user should un-zip the file and navigate to the .exe file on the dist folder
 
-#################################################################
+
 ######################## OTHER TOOLS ############################
 
 There are more tools to create.exe files. Pyinstaller is the most common you can find, however here are some others that provide more options. 
 
 
-#####################################################################
+
 ############################  cx_Freeze  ############################
 
 Installing cx_freeze:
@@ -199,7 +199,7 @@ When using this function the following error appears:
 "RecursinError: maximum recursion depth exceeded while calling a Python object"
 
 
-##################################################################
+
 ############################  py2exe  ############################
 
 Installing py2exe:
@@ -227,7 +227,7 @@ Wait a few seconds, the terminal should show the function running.
 The following error appears:
 "AttributeError: 'NoneType' object has no attribute 'get_source'"
 
-##########################################################################
+
 ############################  auto-py-to-exe  ############################
 
 Google Chrome is required to use the auto-py-to-exe converter, it can be installed on the IT-shop.
@@ -249,7 +249,7 @@ With this method the antivirus triggers a stop command:
     Project output will not be moved to output folder
     Complete.
 
-##################################################################
+
 ############################  Nuitka  ############################
 
 As with the previous methods:
