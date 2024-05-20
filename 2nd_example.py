@@ -1,3 +1,6 @@
+# This is an example for a script with s library and no GUI for testing purposes
+# Try pyinstaller on this example
+
 import numpy as np
 def main():
 
