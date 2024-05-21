@@ -4,7 +4,7 @@ All examples can be found in the main folder.
 
 ############################  pyinstaller  ############################ 
 
-The advantage of using pyinstaller is thaqt no setup file is needed to create a .exe from a python script.
+The advantage of using pyinstaller is that no setup file is needed to create a .exe from a python script.
 
 In order to install pyinstaller:
 
